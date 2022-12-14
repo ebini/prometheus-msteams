@@ -25,6 +25,7 @@ resources: {}
 service:
   type: ClusterIP
   port: 2000
+  annotations: {}
 
 nodeSelector: {}
 
